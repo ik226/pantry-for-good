@@ -79,7 +79,7 @@
     "moment-recur": "^1.0.5",
     "mongoose": "^4.9.5",
     "mongoose-auto-increment": "^5.0.1",
-    "morgan": "~1.8.2",
+    "morgan": "~1.9.1",
     "multer": "^1.2.0",
     "node-geocoder": "^3.16.0",
     "normalizr": "^3.1.0",
