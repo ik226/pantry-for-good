@@ -25,7 +25,9 @@
     "test:server": "npm run test:server:once -- --watch",
     "test:client:once": "cross-env NODE_ENV=test mocha --require babel-register --require ignore-styles --require client/entry.test.js \"client/**/*.spec.js\"",
     "test:server:once": "cross-env NODE_ENV=test mocha --timeout 5000 --require babel-register --require server/entry.test.js \"server/**/*.spec.js\"",
-    "flow": "flow"
+    "flow": "flow",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "config": {
     "ghooks": {
@@ -124,7 +126,8 @@
     "webpack": "^3.1.0",
     "webpack-dev-server": "^2.4.5",
     "webpack-merge": "^4.1.0",
-    "whatwg-fetch": "^2.0.2"
+    "whatwg-fetch": "^2.0.2",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.1",
@@ -147,5 +150,6 @@
     "sinon": "^2.0.0",
     "sinon-chai": "^2.8.0",
     "supertest": "^3.0.0"
-  }
+  },
+  "snyk": true
 }
