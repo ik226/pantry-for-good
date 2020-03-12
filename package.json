@@ -62,7 +62,7 @@
     "file-loader": "^0.11.2",
     "font-awesome": "^4.7.0",
     "geoposition-to-object": "^1.0.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-babel": "^6.1.2",
     "gulp-nodemon": "^2.2.1",
     "gulp-uglify": "^3.0.0",
